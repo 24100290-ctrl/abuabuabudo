@@ -63,10 +63,6 @@ def update_figure(selected_year):
     # 作成したグラフを返すと、画面上のグラフが更新されます。
     return fig
 
-# --- アプリケーションをColab上で起動 ---
-# この部分はColabでのテスト実行用です。
-if __name__ == '__main__':
-    app.run(jupyter_mode='inline')
 # --- 書き換える部分 ---
 
 # サーバーが参照するための変数を定義
